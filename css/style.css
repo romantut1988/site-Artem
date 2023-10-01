@@ -32,17 +32,17 @@ ul {
 }
 
 .header {
-    background: #fff;
+    background-color: #fff;
 }
 
 .header__top {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .navbar {
     display: flex;
+    margin-left: 360px;
 }
 
 .navbar li+li {
@@ -60,10 +60,25 @@ ul {
 
 .list {
     display: flex;
-    margin-left: 372px;
+    margin-left: 300px;
 }
 
 .list__link {
     width: 16px;
     height: 16px;
+}
+
+.home {
+    padding: 40px 0;
+}
+
+.slide {
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    flex-wrap: wrap;
+    border-radius: 56px;
+    background: #C8DDED;
+    padding-left: 40px;
+    padding-top: 56px;
 }
