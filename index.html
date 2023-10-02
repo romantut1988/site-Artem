@@ -14,67 +14,69 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__top">
-                <ul class="navbar">
-                    <li><a href="#Home">Ноутбуки</a></li>
-                    <li><a href="#e">Смартфоны</a></li>
-                    <li><a href="#s">Часы</a></li>
-                    <li><a href="#t">Аксесуары</a></li>
-                </ul>
-                <form action=""></form>
+    <header class="header" id="home">
+
+        <div class="header__top">
+            <nav class="navbar">
+                <a href="#home">Ноутбуки</a>
+                <a href="#product">Смартфоны</a>
+                <a href="#catalog">Часы</a>
+                <a href="#advantage">Аксесуары</a>
+            </nav>
+            <div class="header__icons">
+                <div id="menu-btn">
+                    <img src="images/menu-icon.svg" alt="menu-icon">
+                </div>
+                <div id="search-btn">
+                    <img src="images/search-icon.svg" alt="search-icon">
+                </div>
+                <div id="basket-btn">
+                    <img src="images/basket-icon.svg" alt="basket-icon">
+                </div>
             </div>
         </div>
-    </header>
-
-    <section class="home" id="home">
         <div class="container">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="slide">
-                            <div class="content">
-                                <h1>Apple iPhone 13 Pro Max</h1>
-                                <p style="max-width: 565px;">
+                        <div class="header__content">
+                            <div class="header__description">
+                                <h1 class="header__title">Apple iPhone<br> 13 Pro Max</h1>
+                                <p class="header__text">
                                     Дисплей Super Retina XDR с технологией ProMotion и быстрым, плавным откликом. Грандиозный апгрейд системы камер, открывающий совершенно новые возможности.
                                 </p>
-                                <a class="btn" href="#">Купить</a>
+                                <a class="header__btn" href="#">Купить</a>
                             </div>
-                            <div class="home__image">
+                            <div class="header__img">
                                 <img src="images/home-img-1.png" alt="home-img-1">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="home__wrapper">
-                            <div class="slide">
-                                <div class="content">
-                                    <h1>Apple iPhone 13 Pro Max</h1>
-                                    <p style="max-width: 565px;">
-                                        Дисплей Super Retina XDR с технологией ProMotion и быстрым, плавным откликом. Грандиозный апгрейд системы камер, открывающий совершенно новые возможности.
-                                    </p>
-                                    <a class="btn" href="#">Купить</a>
-                                </div>
-                                <div class="home__image">
-                                    <img src="images/home-img-1.png" alt="home-img-1">
-                                </div>
+                        <div class="header__content">
+                            <div class="header__description">
+                                <h1 class="header__title">Apple iPhone<br> 13 Pro Max</h1>
+                                <p class="header__text">
+                                    Дисплей Super Retina XDR с технологией ProMotion и быстрым, плавным откликом. Грандиозный апгрейд системы камер, открывающий совершенно новые возможности.
+                                </p>
+                                <a class="header__btn" href="#">Купить</a>
+                            </div>
+                            <div class="header__img">
+                                <img src="images/home-img-1.png" alt="home-img-1">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="home__wrapper">
-                            <div class="slide">
-                                <div class="content">
-                                    <h1>Apple iPhone 13 Pro Max</h1>
-                                    <p style="max-width: 565px;">
-                                        Дисплей Super Retina XDR с технологией ProMotion и быстрым, плавным откликом. Грандиозный апгрейд системы камер, открывающий совершенно новые возможности.
-                                    </p>
-                                    <a class="btn" href="#">Купить</a>
-                                </div>
-                                <div class="home__image">
-                                    <img src="images/home-img-1.png" alt="home-img-1">
-                                </div>
+                        <div class="header__content">
+                            <div class="header__description">
+                                <h1 class="header__title">Apple iPhone<br> 13 Pro Max</h1>
+                                <p class="header__text">
+                                    Дисплей Super Retina XDR с технологией ProMotion и быстрым, плавным откликом. Грандиозный апгрейд системы камер, открывающий совершенно новые возможности.
+                                </p>
+                                <a class="header__btn" href="#">Купить</a>
+                            </div>
+                            <div class="header__img">
+                                <img src="images/home-img-1.png" alt="home-img-1">
                             </div>
                         </div>
                     </div>
@@ -82,8 +84,8 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-        </div>
-    </section>
+
+    </header>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
