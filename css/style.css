@@ -50,11 +50,11 @@ h6 {
 
 .header__top {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 44px;
     background-color: #fff;
-    padding: 28px 0;
+    padding: 20px 0;
 }
 
 .header .navbar a+a {
@@ -90,6 +90,7 @@ h6 {
 .header__description {
     max-width: 565px;
     padding-left: 40px;
+    padding-top: 40px;
 }
 
 .header__title {
