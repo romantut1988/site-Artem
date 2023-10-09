@@ -167,6 +167,13 @@ h6 {
     cursor: pointer;
 }
 
+.product__title {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 64px;
+}
+
 @media (max-width: 768px) {
     #menu-btn {
         display: inline-block;
