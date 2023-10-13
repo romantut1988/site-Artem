@@ -180,7 +180,6 @@ h6 {
 
 .product__wrapper {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .product__item {
@@ -271,17 +270,16 @@ h6 {
     }
     .header__text {
         font-size: 18px;
-        font-style: normal;
         line-height: 24px;
         margin-bottom: 24px;
-    }
-    .header__img img {
-        width: 343px;
-        height: 289px;
     }
     .header__btn {
         display: flex;
         justify-content: center;
+    }
+    .header__img img {
+        width: 343px;
+        height: 289px;
     }
     .swiper-pagination {
         display: none;
