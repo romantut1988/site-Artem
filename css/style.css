@@ -429,6 +429,14 @@ h6 {
     padding-bottom: 144px;
 }
 
+.advantages__title {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #191816;
+    margin-bottom: 48px;
+}
+
 .advantages__iner {
     display: flex;
     justify-content: space-between;
@@ -534,6 +542,14 @@ h6 {
         font-size: 20px;
         line-height: 26px;
         width: 100%;
+    }
+    .advantages {
+        padding-bottom: 40px;
+    }
+    .advantages__title {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 22px;
     }
     .advantages__descr {
         border-radius: 32px;
